@@ -1,0 +1,53 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "register_amount",
+                "type": "felt"
+            }
+        ],
+        "name": "register_currency",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "from_user",
+                "type": "felt"
+            },
+            {
+                "name": "to_user",
+                "type": "felt"
+            },
+            {
+                "name": "move_amount",
+                "type": "felt"
+            }
+        ],
+        "name": "move_currency",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            }
+        ],
+        "name": "check_wallet",
+        "outputs": [
+            {
+                "name": "balance",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

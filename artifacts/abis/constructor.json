@@ -1,0 +1,33 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "special_number",
+                "type": "felt"
+            },
+            {
+                "name": "important_address",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "name": "read_special_values",
+        "outputs": [
+            {
+                "name": "number",
+                "type": "felt"
+            },
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
